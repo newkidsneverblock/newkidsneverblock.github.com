@@ -1,12 +1,51 @@
 body {
-	background: black;
+	background: #002F32;
 	font-size: 120%;
 	margin: 0;
 	padding: 0;
 	color: #ccc;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
 }
 
 h1 span {
 	display: block;
 	clear: both;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: uppercase;
+	background-position:-2000px 0px;
+}
+
+/* kuler sun splash */
+
+.new {
+	color: #42826C;
+	background: url(../images/bg_new.png) repeat-y transparent;
+	/*#2b5547*/
+}
+
+.kids {
+	color: #A5C77F;
+	/*background: #84b250;*/
+	background: url(../images/bg_kids.png) repeat-y transparent;
+}
+
+.never {
+	color: #FFC861;
+	/*background: #ffb01d;*/
+	background: url(../images/bg_never.png) repeat-y transparent;
+}
+
+.block {
+	color: #C84663;
+	/*background: #9c2e47;*/
+	background: url(../images/bg_block.png) repeat-y transparent;
 }
