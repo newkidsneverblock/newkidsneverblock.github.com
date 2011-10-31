@@ -1,0 +1,12 @@
+body {
+	background: black;
+	font-size: 120%;
+	margin: 0;
+	padding: 0;
+	color: #ccc;
+}
+
+h1 span {
+	display: block;
+	clear: both;
+}
